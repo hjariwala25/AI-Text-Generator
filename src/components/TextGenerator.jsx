@@ -25,7 +25,6 @@ const TextGenerator = () => {
       setInput("");
       setLoading(false);
       setGeneratedText(text);
-      console.log(text);
     } catch (error) {
       console.log("Error:", error);
     }
