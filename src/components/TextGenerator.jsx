@@ -9,7 +9,7 @@ const TextGenerator = () => {
   const [loading, setLoading] = useState(false);
   const [copied, setCopied] = useState(false);
   const copyRef = useRef("");
-  const key = import.meta.env.GEMENI_API_KEY;
+  const key = import.meta.env.VITE_SOME_KEY;
   const genAI = new GoogleGenerativeAI(key);
 
   const textGen = async () => {
